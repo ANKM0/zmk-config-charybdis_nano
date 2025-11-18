@@ -39,6 +39,11 @@
             bindings = <&mo 0>;
             key-positions = <16 17 18>;
         };
+
+        toggle_layer3 {
+            bindings = <&tog 3>;
+            key-positions = <12 17>;
+        };
     };
 
     behaviors {
@@ -95,10 +100,10 @@
 
         Mouse {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans    &trans  &trans
+  &kp ESC  &trans  &trans  &trans  &trans    &trans  &trans     &msc SCRL_UP    &trans     &kp DEL
+  &trans   &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp MCLK       &mkp RCLK  &trans
+  &trans   &trans  &trans  &trans  &trans    &trans  &trans     &msc SCRL_DOWN  &trans     &trans
+                   &trans  &trans  &trans    &trans  &trans
             >;
         };
 
