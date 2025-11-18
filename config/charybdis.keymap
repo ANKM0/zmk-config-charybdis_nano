@@ -106,14 +106,5 @@
                    &trans  &trans  &trans    &trans  &trans
             >;
         };
-
-        MSNIPE {
-            bindings = <
-  &trans  &trans  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans
-                  &mkp RCLK  &mkp LCLK  &mkp MCLK    &trans  &trans
-            >;
-        };
     };
 };
